@@ -40,7 +40,15 @@ body {
 #intro h1 {
   font-size: 5em;  
   text-align: center;
+  line-height: 0.8em;
+  color: var(--light);
+  text-shadow: 0 0 10px var(--dark);
 }
+
+#intro h1 span {
+
+    font-size: 0.7em;
+  }
 
 h1, h2 {
   font-family: 'Syne Mono', monospace;
